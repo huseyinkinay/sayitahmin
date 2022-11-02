@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
         Random rand = new Random();
-        int int_random = rand.nextInt(11);
+        int int_random = rand.nextInt(11);//0-10 arası sayı üret
         Scanner scan = new Scanner (System.in);
         System.out.println("1-10 arası bir sayıyı tahmin ediniz");
         while(true){
@@ -27,5 +27,4 @@ catch (Exception e){
         }
 
         }
-
 }
